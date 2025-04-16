@@ -34,7 +34,7 @@ The datasets used for this project are:
 - **DEPARTMENT**: The department the product belongs to.
 
 
-###Project Outputs
+### Project Outputs
 The analysis produces valuable insights into:
 
 Sales Insights:
@@ -61,8 +61,8 @@ Department-wise sales data.
 
 Product-level performance.
 
-##Analysis Breakdown
-###Requirement 1: Column Creations
+## Analysis Breakdown
+### Requirement 1: Column Creations
 Created two new columns:
 
 TOTAL_DISCOUNT: Sum of retail and coupon discounts.
@@ -71,7 +71,7 @@ PERCENTAGE_DISCOUNT: Ratio of total discounts to sales value.
 
 Dropped the individual discount columns (RETAIL_DISC, COUPON_DISC, COUPON_MATCH_DISC).
 
-###Requirement 2: Overall Statistics
+### Requirement 2: Overall Statistics
 Calculated:
 
 Total sales value (SALES_VALUE)
@@ -84,15 +84,15 @@ Total quantity sold
 
 Total sales value per basket and household.
 
-###Requirement 3: Demographic Insights
+### Requirement 3: Demographic Insights
 Aggregated the sales data by household_key and merged it with the demographic data.
 
 Performed inner joins with product and demographic tables to segment sales performance by household characteristics.
 
-###Requirement 4: Product Demographics
+### Requirement 4: Product Demographics
 Joined product-level data with transaction and demographic data to analyze product performance within different demographic segments.
 
-##Project Goals
+## Project Goals
 This analysis is designed to provide insights into:
 
 Sales Performance: Identifying products and households contributing to overall sales.
