@@ -34,7 +34,10 @@ The datasets used for this project are:
 - **DEPARTMENT**: The department the product belongs to.
 
 
-Sales Insights: 
+Project Outputs
+The analysis produces valuable insights into:
+
+Sales Insights:
 
 Total sales value
 
