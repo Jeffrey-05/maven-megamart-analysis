@@ -1,0 +1,48 @@
+Maven Mega Mart Data Analysis
+
+ ## Project Overview
+
+ This project involves data analysis of retail transactions from Maven Mega Mart, focusing on
+ customer behavior, sales trends, and product-level insights. The analysis is performed using Python
+ libraries Pandas and NumPy.
+
+ ### Key Objectives:- Explore transaction data from Maven Mega Mart- Calculate total and percentage discounts- Analyze sales performance, customer demographics, and product details- Merge transaction data with product and demographic information
+ 
+## Tools Used- Python (Pandas, NumPy)- Jupyter Notebook (optional for visualization)- CSV for data storage
+
+## Dataset Information
+
+ The dataset used for this project contains several CSV files:- project_transactions.csv: Retail transaction details (e.g., sales value, quantity, discounts)- hh_demographic.csv: Household demographic data (e.g., age, income, family composition)- product.csv: Product details (e.g., product ID, department)
+ 
+### Key Columns:
+
+- RETAIL_DISC: Retail discount applied to products- COUPON_DISC: Coupon discount applied- SALES_VALUE: Total sales value of the transaction- QUANTITY: Quantity of products purchased- HOUSEHOLD_KEY: Household identifier for customer data- PRODUCT_ID: Product identifier- DEPARTMENT: Product department
+
+## How to Run the Code
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/maven-megamart-analysis.git
+   ```
+ 2. Install necessary libraries:
+   ```bash
+   pip install pandas numpy
+   ```
+ 3. Run the script:
+   ```bash
+   python maven_megamart_analysis.py
+   ```
+ ## Project Outputs
+
+- Sales Insights: Total sales value, total discount given, overall discount percentage, and total
+ quantity sold.- Demographic Insights: Aggregated sales data by household, segmented by demographic
+information (age, income).- Product Insights: Analysis of product-level data, including department-wise sales.
+
+## Project Goals
+
+This analysis is designed to provide insights into:- Sales Performance: Understanding how products and households contribute to overall sales.- Discount Impact: Analyzing the effect of discounts on sales.- Demographic Trends: Identifying trends in purchasing behavior across different demographic
+segments.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
